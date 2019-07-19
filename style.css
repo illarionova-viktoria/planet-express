@@ -9,7 +9,7 @@
 }
 
 body{
-  width: 1290px;
+  min-width: 1290px;
   margin: 0;
   padding: 0;
   font-size: 17px;
@@ -78,6 +78,10 @@ body{
     font-weight: bold;
     line-height: 22px;
     margin-right: 30px;
+}
+
+.main-menu > li > a:hover{
+    color: #1e2123;
 }
 
 .main-menu .extra-menu{
@@ -165,6 +169,53 @@ body{
 }
 
 .promo p{
-
     color: white;
+    
+    padding: 0;
+    margin: 0;
+    padding-top: 40px;
+    margin-left: -80px;
+}
+
+.page-switch{
+    margin-left: 330px;
+    margin-top: 175px;
+}
+
+.page-switch a{
+    display: inline-block;
+
+    text-decoration: none;
+    color: white;
+    font-family: OpenSansBold;
+    font-size: 16px;
+    line-height: 32px;
+    height: 31px;
+    width: 31px;
+    border: 3px solid white;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+
+    margin-right: 10px;
+}
+
+.page-switch a:first-child{
+    width: 60px;
+}
+
+.page-switch a:last-child{
+    width: 60px;
+}
+
+.page-switch .current{
+    border-color: #1e2123;
+    color: #1e2123;
+}
+
+.page-switch a:hover{
+    
+    background-color: white;
+    border-color: white;
+    color: #0c9aec;   
 }
